@@ -1,0 +1,38 @@
+{
+  "name": "module11_hw",
+  "version": "1.0.0",
+  "description": "unit tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jewel5757/module11_homework.git"
+  },
+  "keywords": [
+    "test",
+    "unit"
+  ],
+  "author": "Tatyana chayko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jewel5757/module11_homework/issues"
+  },
+  "homepage": "https://github.com/Jewel5757/module11_homework#readme",
+  "dependencies": {
+    "babel-jest": "^29.3.1",
+    "jest": "^29.3.1"
+  },
+  "env": {
+    "test": {
+      "plugins": [
+        "@babel/plugin-transform-modules-commonjs"
+      ]
+    }
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.19.6",
+    "@babel/preset-env": "^7.20.2"
+  }
+}
